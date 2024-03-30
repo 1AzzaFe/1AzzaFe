@@ -1,0 +1,15 @@
+#include <stdio.h>
+int C;
+int param(){
+    return C;
+}
+int main(){
+    float F;
+    C= 10;
+    F=(1.8*C + 32);
+    printf("Temperatura em Fahrenheit: %.0f.\n",F);
+    C = 1;
+    F=(1.8*C + 32);
+    printf("Temperatura em Fahrenheit: %.0f.\n",F);
+    return 0;
+}
