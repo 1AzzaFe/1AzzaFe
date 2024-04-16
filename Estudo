@@ -1,15 +1,23 @@
-#include <stdio.h>
-int C;
-int param(){
-    return C;
+ #include <stdio.h>
+int main() {
+    int A[6],a,s,soma;
+    s=0;
+       for(a=0;a<6;a++){
+       scanf("%d",&A[a]);
+       }
+       for(a=0;a<6;a++){
+          printf("Voce digitou %d\n",A[a]);
+       soma=A[1]+A[5]+A[0];
+       }
+       printf("Soma: %d\n",soma);{
+       int B[0];
+       scanf("%d",&B[0]);
+       for(a=0;a<6;a++){
+          printf("Novos digitos: %d\n",B[a]);
+      }
+      for(a=0;a<6;a++){
+         s=s+B[a];
+      } 
+         printf("Soma final: %d\n",s);
 }
-int main(){
-    float F;
-    C= 10;
-    F=(1.8*C + 32);
-    printf("Temperatura em Fahrenheit: %.0f.\n",F);
-    C = 1;
-    F=(1.8*C + 32);
-    printf("Temperatura em Fahrenheit: %.0f.\n",F);
-    return 0;
 }
