@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @1AzzaFe
+- 👋 Hi, I’m @AzzaFe
 - 👀 I’m interested in stutuding ...
  
  
